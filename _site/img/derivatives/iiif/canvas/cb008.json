@@ -1,0 +1,29 @@
+{
+  "@type": "sc:Canvas",
+  "@id": "http://localhost:4000/modernwax/img/derivatives/iiif/canvas/cb008.json",
+  "label": "front",
+  "width": 666,
+  "height": 534,
+  "thumbnail": "http://localhost:4000/modernwax/img/derivatives/iiif/images/cb008/full/250,/0/default.jpg",
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "http://localhost:4000/modernwax/img/derivatives/iiif/annotation/cb008.json",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "http://localhost:4000/modernwax/img/derivatives/iiif/images/cb008/full/full/0/default.jpg",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "http://localhost:4000/modernwax/img/derivatives/iiif/images/cb008",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 333,
+        "height": 267
+      },
+      "on": "http://localhost:4000/modernwax/img/derivatives/iiif/canvas/cb008.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

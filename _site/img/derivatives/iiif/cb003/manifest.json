@@ -1,0 +1,47 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:4000/modernwax/img/derivatives/iiif/cb003/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "cb003",
+  "thumbnail": "http://localhost:4000/modernwax/img/derivatives/iiif/images/cb003/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "http://localhost:4000/modernwax/img/derivatives/iiif/sequence/cb003.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://localhost:4000/modernwax/img/derivatives/iiif/canvas/cb003.json",
+          "label": "front",
+          "width": 520,
+          "height": 506,
+          "thumbnail": "http://localhost:4000/modernwax/img/derivatives/iiif/images/cb003/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://localhost:4000/modernwax/img/derivatives/iiif/annotation/cb003.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:4000/modernwax/img/derivatives/iiif/images/cb003/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:4000/modernwax/img/derivatives/iiif/images/cb003",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 260,
+                "height": 253
+              },
+              "on": "http://localhost:4000/modernwax/img/derivatives/iiif/canvas/cb003.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "http://localhost:4000/modernwax/img/derivatives/iiif/images/cb003/full/full/0/default.jpg",
+  "fullwidth": "http://localhost:4000/modernwax/img/derivatives/iiif/images/cb003/full/1140,/0/default.jpg"
+}
